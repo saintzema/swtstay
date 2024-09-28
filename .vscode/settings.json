@@ -1,0 +1,195 @@
+{
+    "window.zoomLevel": 0,
+    "editor.wordWrap": "off",
+    "editor.wordWrapColumn": 250000,
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "editor.scrollbar.verticalScrollbarSize": 5,
+    "editor.overviewRulerBorder": false,
+    // "editor.cursorBlinking": "smooth",
+    // "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorStyle": "block",
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontWeight": "600",
+    "editor.fontSize": 15,
+    "editor.fontLigatures": true,
+    "editor.emptySelectionClipboard": false, // When I accidentally hit copy without selecting anything and it overrides my clipboard - ugh.
+    "editor.quickSuggestionsDelay": 0, // Give it to me as fast as you have it.
+    "editor.formatOnPaste": true, // In sublime I got used to almost exclusively using "cmd+shift+v" (format on paste) - now it will do it by default!
+    "disableLigatures.mode": "Cursor",
+    "editor.lineHeight": 2.3,
+    "editor.guides.highlightActiveIndentation": false,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "breadcrumbs.filePath": "off",
+    "breadcrumbs.showArrays": false,
+    "breadcrumbs.showClasses": false,
+    "breadcrumbs.symbolPath": "last",
+    // "breadcrumbs.icons": true,
+    "extensions.ignoreRecommendations": true,
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.scale": 1,
+    "editor.minimap.maxColumn": 80,
+    // everything about apc
+    "apc.electron": {
+        "frame": false,
+        // "titleBarStyle": "hidden",
+        "titleBarOverlay": {
+            "color": "#2f3241",
+            "symbolColor": "#74b1be",
+            "height": 100
+        },
+        "titleBarStyle": "hiddenInset",
+        "trafficLightPosition": {
+            "x": 10,
+            "y": 10
+        }
+    },
+    "window.titleBarStyle": "native",
+    // vs spelling dictionary
+    "cSpell.userWords": [
+        "ARGB",
+        "asaba",
+        "autofocus",
+        "Autovalidate",
+        "cardable",
+        "codicon",
+        "Cupertino",
+        "custome",
+        "flushbar",
+        "fullscreen",
+        "GYGITAL",
+        "iconsax",
+        "isax",
+        "jetbrains",
+        "jetbrainsicons",
+        "laravel",
+        "Livewire",
+        "LTRB",
+        "microtask",
+        "ndialog",
+        "Onboarded",
+        "Ozoro",
+        "paystack",
+        "Raiting",
+        "signup",
+        "stylesheet",
+        "Topup",
+        "unfocus",
+        "vsync",
+        "Zoomable"
+    ],
+    "dart.lineLength": 200,
+    "[dart]": {
+        "editor.rulers": [
+            200
+        ],
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.codeActionsOnSave": {
+            "source.fixAll": "explicit",
+            "source.organizeImports": "explicit"
+        },
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": "off",
+        //   "editor.tabSize": 2
+    },
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    // "css.validate": false,
+    "editor.inlineSuggest.enabled": true,
+    "editor.accessibilitySupport": "off",
+    "settings.cycle": [
+        {
+            "id": "lineNumbers",
+            "values": [
+                {
+                    "editor.lineNumbers": "off",
+                    "editor.folding": false
+                },
+                {
+                    "editor.lineNumbers": "relative",
+                    "editor.folding": true
+                }
+            ]
+        },
+        {
+            "id": "statusBar",
+            "values": [
+                {
+                    "workbench.statusBar.visible": false,
+                },
+                {
+                    "workbench.statusBar.visible": true,
+                }
+            ]
+        }
+    ],
+    "editor.folding": true,
+    "editor.lineNumbers": "relative",
+    "editor.stickyScroll.enabled": false,
+    "workbench.editorAssociations": {
+        "*.sqlite": "default",
+        "*.woff": "default",
+        "*.mmdb": "default"
+    },
+    "git.autofetch": true,
+    "workbench.editor.showTabs": "single",
+    // "git.openRepositoryInParentFolders": "never",
+    // "explorer.compactFolders": false,
+    "editor.stickyScroll.scrollWithEditor": false,
+    "editor.stickyScroll.maxLineCount": 1,
+    "workbench.tree.stickyScrollMaxItemCount": 1,
+    "workbench.tree.enableStickyScroll": false,
+    "editor.linkedEditing": true,
+    "workbench.activityBar.location": "hidden",
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "workbench.statusBar.visible": true,
+    "workbench.startupEditor": "none",
+    "workbench.tips.enabled": false,
+    "workbench.sideBar.location": "left",
+    "editor.renderWhitespace": "none",
+    "editor.renderControlCharacters": false,
+    "breadcrumbs.enabled": false,
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontFamily": "JetBrains Mono",
+    "terminal.integrated.mouseWheelZoom": true,
+    "workbench.colorTheme": "Everforest Dark",
+    "Devdb.colorTheme": "dark",
+    "editor.guides.indentation": false,
+    "terminal.integrated.env.osx": {
+        "FIG_NEW_SESSION": "1"
+    },
+    "window.customTitleBarVisibility": "never",
+    "workbench.editor.enablePreview": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "update.mode": "manual",
+    "cSpell.words": [
+        "accountdart",
+        "avarter",
+        "favourite",
+        "Favourites",
+        "Gcolor",
+        "infomation",
+        "listtile",
+        "Nnebisi",
+        "ontap",
+        "prefs",
+        "RGBO",
+        "screenutil",
+        "SFPRODISPLAYREGULAR",
+        "swtstay",
+        "textfields",
+        "textstyles"
+    ],
+}
